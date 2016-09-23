@@ -1,0 +1,42 @@
+div {
+  border: solid 1px black;
+  margin: 20px;
+}
+
+#css-zen-garden {
+  text-align: center;
+}
+
+.intro {  
+  [role=banner] {
+  text-align: left;
+  margin-left: 50px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin: 0px 0px 2px 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin: 2px 0px auto 30px;
+  }  
+}
+
+#zen-preamble, #zen-summary {
+  display: inline-block;
+  font-size: 20px;
+}
+
+#zen-summary {
+  position: relative;
+  bottom: 142px;
+  width: 30%;
+  
+}
+
+#zen-preamble {
+  position: relative;
+  width: 60%;
+}
